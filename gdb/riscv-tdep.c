@@ -35,6 +35,7 @@
 #include "riscv-tdep.h"
 #include "block.h"
 #include "reggroups.h"
+#define IN_DISASSEMBLER
 #include "opcode/riscv.h"
 #include "elf/riscv.h"
 #include "elf-bfd.h"

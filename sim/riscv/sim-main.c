@@ -31,6 +31,7 @@
 #include "sim-signal.h"
 #include "sim-syscall.h"
 
+#define IN_DISASSEMBLER
 #include "opcode/riscv.h"
 
 #include "gdb/sim-riscv.h"
